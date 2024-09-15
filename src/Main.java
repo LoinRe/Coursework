@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Общая сумма затрат на зарплату в месяц: " + getSumInMonth(employees));
 
 //Задание 8c
-        Employee minSalaryEmployee = getEmplWithMinSalary(employees); //???????
+        Employee minSalaryEmployee = getEmplWithMinSalary(employees);
         System.out.println("Сотрудник с минимальной зарплатой: " + minSalaryEmployee.getName() + " " + minSalaryEmployee.getSurname());
 
 //Задание 8d
